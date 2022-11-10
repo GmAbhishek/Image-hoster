@@ -1,0 +1,177 @@
+@import url(http://db.onlinewebfonts.com/c/57d038810942f99c1d5f6aa97fb3c697?family=Booter+-+Zero+Zero);
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans&family=Macondo&family=Metal+Mania&family=Square+Peg&display=swap');
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("//db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.eot"); 
+    src: url("//db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.eot?#iefix") format("embedded-opentype"), 
+         url("//db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.woff") format("woff"),
+         url("//db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.ttf") format("truetype"), 
+         url("//db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.svg#Booter - Zero Zero") format("svg"); }
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 500;
+    color: rgb(99, 92, 92);
+}
+html,body
+{
+    margin: 0mm;
+    padding: 0px;
+}
+.nav_1 ul
+{
+    margin: 0 ;
+}
+.nav_1 li
+{
+    display: inline;
+    padding: 0.5em;
+}
+.nav_1 a
+{
+    font-size: large;
+    display: inline-block;
+    padding:1em 1.5em 1em 1.5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav_1 a:hover
+{
+    color: rgb(227, 255, 13);
+    background-color: rgba(68, 90, 64, 0.416);
+}
+.main_nav
+ {
+    text-align: justify;
+    text-align:center;
+    font-size: medium;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(137, 169, 176, 0.959);
+}
+.main_nav li
+{
+    padding: 0.5%; 
+}
+.head_1
+{
+   background-color: rgba(169, 215, 161, 0.9);
+    background-image: url("Images/header_background.jfif");
+    background-position-y:center;
+    background-repeat: no-repeat;
+    background-blend-mode:normal;
+    background-size:cover;
+    padding-bottom:50px ;
+
+}
+.h-1{
+    text-align: center;
+    margin: 0%;
+    font-family: "Booter - Zero Zero";
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    /*size: 2000000000em;*/
+}
+.Size_h1
+{
+    font-size: 15em;
+}
+.button1
+{
+    margin-left: 65%;
+}
+.button1,.button2
+{  
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50em;
+    box-shadow: 0 9px #999;
+}   
+.button1:active,.button2:active 
+{
+    transition-duration: 0.4s;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 5px #666;
+     transform: translateY(4px);
+}
+.button1:hover,.button2:hover
+{   transition-duration: 0.4s;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.button2,.button2 img{
+    border-radius:50% ;
+    height: 2em;
+    width: 2em;
+    padding: 0%;
+}
+.button2
+{
+    margin-left: 70%;
+}
+.Sec_1
+{
+    margin: 1em;
+}
+.container
+{
+    max-width: 1425px;
+    margin: 0 auto ;
+    padding: 0 1.5em;
+}
+.Sec_head
+{
+    font-family: "Metal Mania",cursive;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+.Overview_Image
+{
+    float: left;
+    margin:1em;
+}
+.character
+{
+ color: rgb(227, 80, 50);
+ font-family: 'Macondo', cursive;
+ font-weight: 1000;
+ font-size: large;  
+}
+.h-2
+{
+    font-size: 3em;
+}
+.main-footer
+{
+   background-color: rgba(1, 5, 0, 0.514);
+   color: aliceblue;
+   padding: .25em 0;  
+}
+.main-footer-container
+{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul
+{
+flex-grow: 1;
+text-align: end;
+}
+.footer-nav li{
+    padding: 0.5em;
+    display: inline;
+}
+.footer-nav img
+{
+width:5%;
+height: 5%;
+}
