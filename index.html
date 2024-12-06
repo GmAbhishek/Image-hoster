@@ -26,10 +26,10 @@
              <br>
              <button class="button2"><img src="Images/Telegram.png"></button>
               </header>
-            <form action="/submit" method="post">
-    <textarea id="typing" name="feedback" placeholder="Keep Typing"></textarea><br><br>
-    <input type="submit" value="Submit">
-</form>
+             <form id="feedbackForm" action="/submit" method="post">
+        <textarea id="typing" name="feedback" placeholder="Keep Typing"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
              <section class="Sec_1 container">
                  <h2 class="Sec_head">
                      Overview
@@ -75,5 +75,12 @@
                     </ul>
                     </div>
                 </footer>
+         <script>
+        // JavaScript to clear the text area on form submission
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            // Clear the text area
+            document.getElementById('typing').value = '';
+        });
+    </script>
     </body>
 </html>
