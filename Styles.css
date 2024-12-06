@@ -175,3 +175,12 @@ text-align: end;
 width:5%;
 height: 5%;
 }
+textarea {
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical; /* Allows vertical resizing */
+        }
